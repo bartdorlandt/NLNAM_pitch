@@ -77,8 +77,8 @@ style: |
     }
     .logo-position {
         position: absolute;
-        top: 20px;
-        right: 40px;
+        top: 63px;
+        right: 73px;
         width: fit-content;
     }
     .logo-card {
@@ -123,7 +123,7 @@ style: |
     }
     /* Closing slide: photo background + readable overlay */
     section.closing {
-        background-image: linear-gradient(90deg, rgba(13, 27, 51, 0.78) 0%, rgba(13, 27, 51, 0.55) 55%, rgba(13, 27, 51, 0.35) 100%), url('template/nam_background.png') !important;
+        background-image: linear-gradient(90deg, rgba(13, 27, 51, 0.78) 0%, rgba(13, 27, 51, 0.55) 35%, rgba(13, 27, 51, 0.35) 100%), url('template/nam_background.png') !important;
         background-size: cover, contain !important;
         background-position: center !important;
         background-repeat: no-repeat !important;
@@ -147,6 +147,12 @@ style: |
         padding: 12px;
         border-radius: 12px;
         border: 4px solid #AE1C28;
+        font-size: 0;
+        line-height: 0;
+    }
+    .qr-box img {
+        display: block;
+        margin: 0;
     }
     .center-stage {
         position: absolute;
@@ -166,7 +172,7 @@ style: |
 ![height:170px](template/nlnam_logo_transparent.png)
 
 <!--
-I'm so excited to be here and being able to talk about NLNAM. What started as an idea between Dan Peachey and I at Autocon 3 in 2025, has now grown into a real community.
+I'm so excited to be here and being able to talk about NLNAM. What started as an idea between Dan Peachey and I at Autocon 3 in 2025, has now grown into a real community. I'm so happy this is all working out and getting the people together.
 -->
 
 ---
@@ -185,9 +191,11 @@ I'm so excited to be here and being able to talk about NLNAM. What started as an
 - Lives by: *"There must be a better way"*
 - Co-organizer of PyUtrecht
 - Advisory board member of Network Automation Forum (NAF)
+- dreamnetworking.nl/
+- linkedin.com/in/bartdorlandt/
 
 <!--
-
+Started in networking and grown into network automation
 -->
 
 ---
@@ -197,18 +205,26 @@ I'm so excited to be here and being able to talk about NLNAM. What started as an
 > The **N**ether**L**ands **N**etwork **A**utomation **M**eetup
 
 - A **volunteer-run community** — free to attend
-- For **network engineers, DevOps, automationeers & developers**
+- For **network|automation engineers, DevOps & developers**
 - Regular meetups across the Netherlands: **talks + networking**
 
 *A home for everyone automating (the network).*
 
-<!--
-There should be one of these in the Netherlands
--->
+---
+
+## Past & future meetups
+
+| #   |      Date | Host              | Where           |
+| --- | --------: | ----------------- | --------------- |
+| 1   |     5 Feb | Adyen + Netpicker | Amsterdam       |
+| 2   |    13 May | APNT              | Alphen a/d Rijn |
+| 3   | **9 Sep** | **One Zero IT**   | **Utrecht**     |
+| 4   |    26 Nov | Schuberg Philis   | Schiphol-Rijk   |
+| 5   |   Feb '27 | Huawei            | Rijswijk        |
 
 ---
 
-## Topics for the next event
+## Topics for the September event
 
 - Zero Trust Automation: From Complexity to Control
 - Network Automation Framework overview
@@ -228,18 +244,6 @@ There should be one of these in the Netherlands
 -->
 
 ---
-
-## Past & future meetups
-
-| #   |      Date | Host              | Where           |
-| --- | --------: | ----------------- | --------------- |
-| 1   |     5 Feb | Adyen + Netpicker | Amsterdam       |
-| 2   |    13 May | APNT              | Alphen a/d Rijn |
-| 3   | **9 Sep** | **One Zero IT**   | **Utrecht**     |
-| 4   |    26 Nov | Schuberg Philis   | Schiphol-Rijk   |
-| 5   |   Feb '27 | Huawei            | Rijswijk        |
-
----
 <!-- _class: closing -->
 <div class="center-stage">
 
@@ -254,5 +258,7 @@ https://net-auto.nl/
 </div>
 
 <!--
-I'm very excited and proud NLNAM now exists. I'm also looking for great topics and speakers. I welcome you to submit them and/or be part of the upcoming events.
+I'm very excited and proud NLNAM now exists. For every event I'm looking for great topics and speakers.
+I welcome you to submit them and/or be part of the upcoming events.
+Thank you & enjoy your lunch
 -->
