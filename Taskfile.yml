@@ -6,42 +6,42 @@ vars:
   FILES:
     sh: gfind -type f -maxdepth 1 -name "NLNAM*.md" -printf "%P\n"
   MAIN_OPTIONS: "--allow-local-files"
-  METADATA:
-    "--title 'NLNAM: A Home for Network Automation in the Netherlands'
+  METADATA: "--title 'NLNAM: A Home for Network Automation in the Netherlands'
     --author 'Bart Dorlandt' --keywords 'network automation, meetup,
     netherlands, nlnam, netdevops' --description 'A lightning talk introducing
     the NL Network Automation Meetup (NLNAM) and how to get involved.'"
+  OUTPUT_DIR: "presentation"
 
 tasks:
   default: task -l --sort none
 
-  mkdir:export:
-    desc: Create export directory if it doesn't exist
+  mkdir:presentation:
+    desc: Create presentation directory if it doesn't exist
     internal: true
     status:
-      - test -d export
+      - test -d {{.OUTPUT_DIR}}
     cmds:
-      - mkdir -p export
+      - mkdir -p {{.OUTPUT_DIR}}
 
   export:pdf:
     desc: Export the presentation to PDF
-    deps: [mkdir:export]
+    deps: [mkdir:presentation]
     vars:
       OPTIONS: "{{.MAIN_OPTIONS}} --pdf {{.METADATA}}"
     cmds:
       - for:
           var: FILES
-        cmd: marp {{.OPTIONS}} -o export/{{.ITEM | replace ".md" ".pdf"}} {{.ITEM}}
+        cmd: marp {{.OPTIONS}} -o {{.OUTPUT_DIR}}/{{.ITEM | replace ".md" ".pdf"}} {{.ITEM}}
 
   export:pptx:
     desc: Export the presentation to PPTX
-    deps: [mkdir:export]
+    deps: [mkdir:presentation]
     vars:
       OPTIONS: "{{.MAIN_OPTIONS}} --pptx {{.METADATA}}"
     cmds:
       - for:
           var: FILES
-        cmd: marp {{.OPTIONS}} -o export/{{.ITEM | replace ".md" ".pptx"}} {{.ITEM}}
+        cmd: marp {{.OPTIONS}} -o {{.OUTPUT_DIR}}/{{.ITEM | replace ".md" ".pptx"}} {{.ITEM}}
 
   present:
     desc: Present the presentation

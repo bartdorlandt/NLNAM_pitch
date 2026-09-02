@@ -172,7 +172,11 @@ style: |
 ![height:170px](template/nlnam_logo_transparent.png)
 
 <!--
-I'm so excited to be here and being able to talk about NLNAM. What started as an idea between Dan Peachey and I at Autocon 3 in 2025, has now grown into a real community. I'm so happy this is all working out and getting the people together.
+* Thank you for the time and opportunity to present
+* Proud, Stoked, Excited
+* Start - Dan Peachey and I, AC3, 2025
+* Launched 2026
+* Now a real community
 -->
 
 ---
@@ -187,15 +191,16 @@ I'm so excited to be here and being able to talk about NLNAM. What started as an
 ## Bart Dorlandt
 
 - Freelance Network Automation Solution Architect
-- 20+ years in networking & automation
-- Lives by: *"There must be a better way"*
+- Lives by: __*There must be a better way*__
 - Co-organizer of PyUtrecht
 - Advisory board member of Network Automation Forum (NAF)
-- dreamnetworking.nl/
-- linkedin.com/in/bartdorlandt/
+
+- https://dreamnetworking.nl/
+- https://linkedin.com/in/bartdorlandt/
 
 <!--
-Started in networking and grown into network automation
+- Coming from networking
+- Spend the last 10 years in network automation
 -->
 
 ---
@@ -208,7 +213,19 @@ Started in networking and grown into network automation
 - For **network|automation engineers, DevOps & developers**
 - Regular meetups across the Netherlands: **talks + networking**
 
-*A home for everyone automating (the network).*
+*A home for everyone automating (a network).*
+
+<!--
+For some:
+- Be away from the kids just a bit longer
+- No pressure of work, but you still love the tech
+- To each there own, but we all share the same passion
+- Free food
+
+Goals:
+- Knowledge sharing         - Networking
+- Food, duh, food!!!        - Having a great time
+-->
 
 ---
 
@@ -222,6 +239,10 @@ Started in networking and grown into network automation
 | 4   |    26 Nov | Schuberg Philis   | Schiphol-Rijk   |
 | 5   |   Feb '27 | Huawei            | Rijswijk        |
 
+<!--
+Website has previous meetups and presentations
+-->
+
 ---
 
 ## Topics for the September event
@@ -232,15 +253,13 @@ Started in networking and grown into network automation
 - Manage a pan-european network with WFO and Ansible
 
 <!--
-- Infrastructure as Code
-- Source of Truth
-- Configuration Management
-- (Network) Programming
+- Infrastructure as Code        - Source of Truth
+- Configuration Management      - (Network) Programming
 
-- Monitoring & Observability
-- Cloud Networking
-- Validation & Testing
-- Workflow Automation
+- Monitoring & Observability    - Cloud Networking
+- Validation & Testing          - Workflow Automation
+
+Occasionally, AI
 -->
 
 ---
@@ -258,7 +277,12 @@ https://net-auto.nl/
 </div>
 
 <!--
-I'm very excited and proud NLNAM now exists. For every event I'm looking for great topics and speakers.
-I welcome you to submit them and/or be part of the upcoming events.
-Thank you & enjoy your lunch
+Awesome to have this NA community in the Netherlands.
+So excited!
+We are always looking for great topics and speakers.
+
+Hope to see you at the next event!
+
+Thank you & enjoy your food.
+- Because it is always the food that brings us together, right?
 -->
